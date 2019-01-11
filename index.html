@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+     <script type="text/javascript" src="./node_modules/vue/dist/vue.js"></script>
+    <title>vue_exercices</title>
+
+</head>
+
+<body>
+<div id="app">
+<h1>{{ vue.data.title }}</h1>
+</div>
+ 
+<script type="text/javascript">
+    new Vue({
+        el: '#app',  //quel partie la vue veut controler (#app)
+        data: {      // metre de l' information de la data
+        title :'Hello vue js'
+    }
+    })
+
+</script>
+
+</body>
+
+</html

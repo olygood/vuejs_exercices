@@ -1,0 +1,23 @@
+{
+  "name": "vuejs_exercices",
+  "version": "1.0.0",
+  "description": "exercices vue js de zéro",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olygood/vuejs_exercices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olygood/vuejs_exercices/issues"
+  },
+  "homepage": "https://github.com/olygood/vuejs_exercices#readme",
+  "dependencies": {
+    "vue": "^2.5.21"
+  }
+}
